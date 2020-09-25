@@ -82,6 +82,11 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Com.OneSignal">
+      <HintPath>..\..\packages\Com.OneSignal.3.10.1\lib\Xamarin.iOS10\Com.OneSignal.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
@@ -101,6 +106,7 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -118,10 +124,12 @@
     <ProjectReference Include="..\..\Com.OneSignal.Abstractions\Com.OneSignal.Abstractions.csproj">
       <Project>{4AAD1A77-175C-46BF-9C64-B3042A20CCFA}</Project>
       <Name>Com.OneSignal.Abstractions</Name>
+      <HintPath>..\..\packages\Com.OneSignal.3.10.1\lib\Xamarin.iOS10\Com.OneSignal.Abstractions.dll</HintPath>
     </ProjectReference>
     <ProjectReference Include="..\..\OneSignal.iOS.Binding\OneSignal.iOS.Binding.csproj">
       <Project>{967EAABD-4A79-4762-9848-0D5530AA1FA5}</Project>
       <Name>OneSignal.iOS.Binding</Name>
+      <HintPath>..\..\packages\Com.OneSignal.3.10.1\lib\Xamarin.iOS10\OneSignal.iOS.Binding.dll</HintPath>
     </ProjectReference>
     <ProjectReference Include="..\..\Com.OneSignal.iOS\Com.OneSignal.iOS.csproj">
       <Project>{5FF66A21-BA7B-48FD-8A7D-6A1092066306}</Project>
