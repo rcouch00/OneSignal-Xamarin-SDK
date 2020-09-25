@@ -17,7 +17,7 @@ namespace Com.OneSignal.Sample.Shared
          //if you want to require user consent, change this to true
          SharedPush.SetRequiresConsent(false);
 
-         OneSignal.Current.StartInit("8f8ae230-9e27-4919-9404-b3281f1f424f")
+         OneSignal.Current.StartInit("c910d873-04e1-43a9-9246-ab90158b8c14")
             .Settings(new Dictionary<string, bool>() {
             { IOSSettings.kOSSettingsKeyAutoPrompt, false },
             { IOSSettings.kOSSettingsKeyInAppLaunchURL, true } })
