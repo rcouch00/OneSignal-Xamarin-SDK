@@ -17,7 +17,8 @@ namespace Com.OneSignal.Sample.Shared
          //if you want to require user consent, change this to true
          SharedPush.SetRequiresConsent(false);
 
-         OneSignal.Current.StartInit("b2f7f966-d8cc-11e4-bed1-df8f05be55ba").Settings(new Dictionary<string, bool>() {
+         OneSignal.Current.StartInit("8f8ae230-9e27-4919-9404-b3281f1f424f")
+            .Settings(new Dictionary<string, bool>() {
             { IOSSettings.kOSSettingsKeyAutoPrompt, false },
             { IOSSettings.kOSSettingsKeyInAppLaunchURL, true } })
            .InFocusDisplaying(OSInFocusDisplayOption.Notification)
