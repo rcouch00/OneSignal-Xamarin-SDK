@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.thereallycool.classicqueue.onesignal</string>
+		<string>group.com.thereallycool.classicqueue.xamarin.onesignal</string>
 	</array>
 </dict>
 </plist>
